@@ -1,3 +1,37 @@
 body{
     background: rgba(101, 25, 25, 1);
 }
+
+a{
+    color: white;
+    text-decoration: none
+}
+
+header {
+ position: fixed;
+ width: 100%;
+ top: 0;
+}
+
+header, nav ul {
+ display: flex;
+ justify-content: space-between;
+ padding: 1rem;
+  list-style-type: none;
+
+}
+
+nav ul li {
+ margin-left: 100px;
+ justify-content: 50px;
+ width: 0px;
+
+}
+
+h1{
+    align-content: center;
+    text-size-adjust: 60px;
+    color:white;
+    margin-left: 550px;
+    margin-top: 300px;
+}
