@@ -29,9 +29,9 @@ nav ul li {
 }
 
 h1{
-    align-content: center;
-    text-size-adjust: 60px;
-    color:white;
-    margin-left: 550px;
-    margin-top: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
