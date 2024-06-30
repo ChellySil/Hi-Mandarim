@@ -35,3 +35,15 @@ h1{
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.img-1{
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    left:75%;
+}
+
+.img-2{
+    width: 138px;
+    height: 580px;
+}
