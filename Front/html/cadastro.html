@@ -5,21 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/style-cadastro.css" rel="stylesheet">
+
+    <link href="../css/style-sobre.css" rel="stylesheet">
+    <img class ="img-2" src="../imagens/baloes.png" />
+    <img class="img-1" src="../imagens/baloes_2.png"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
 
 <body>
-    <a href="inicio.html">HOME</a>
-    <a href="login.html">LOGIN</a>
-    <a href="cadastro.html"CADASTRO</a>
+     <header>
+        <nav>
+         <ul>
+         <li> <a href="inicio.html"> HOME </a> </li>
+          <li> <a href="login.html"> LOGIN </a> </li>
+          <li> <a href="sobre.html"> SOBRE </a> </li>
+          <li> <a href="cadastro.html"> CADASTRO</a> </li>
+            </ul>
+        </nav>
+
+    </header>
 </body>
 
 <div class="cadastro">
-   <form>
+   <form method="post" class="formcadastro">
         <h1>Cadastro</h1>
-       <input type="text" placeholder="Nome">
-       <input type="text" placeholder="Email">
-       <input type="password" placeholder="senha">
-       <input type="submit" value="Entrar">
+       <label for="nome">Nome</label>
+       <input type="text">
+       <br>
+       <label for="email">E-mail</label>
+       <input type="text">
+       <br>
+       <label for="password">Senha</label>
+       <input type="password">
+       <br>
+       <input type="submit" value="Entrar" class="btn">
+       <div class="caixinha">
+            <a href="/">LOGIN</a>
+        </div>
    </form>
 </div>
 
