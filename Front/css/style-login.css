@@ -52,7 +52,7 @@ nav ul li {
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
     gap: 5px;
     width: 20%;
-    height: 230px;
+    height: 300px;
 
 }
 
@@ -95,10 +95,9 @@ nav ul li {
    size: 20px;
 }
 
-.formlogin a {
+.caixinha a {
     color: white;
     text-align: right;
     font-family: "Koulen", sans-serif;
-    padding: 0px;
-    left: 50%
+    margin-left: 145px;
 }
