@@ -75,7 +75,6 @@ nav ul li {
 
 .cadastro input {
    padding: 9px;
-    top: 20%;
   border: none;
   border-radius: 5px;
   font-size: 15px;
@@ -100,4 +99,5 @@ nav ul li {
     font-family: "Koulen", sans-serif;
     margin-left: 145px;
     font-size: 25px;
+    
 }
